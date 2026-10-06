@@ -26,12 +26,12 @@ Dragon Ball Z Memory Match
 Flip the cards and find the pairs. There are 5 Dragon Ball Z cards, each one shows up twice, and they get shuffled every game. Match all 5 pairs, and you're a Winnnnnnnaaaaaa.
 
 How to Play
-Click a card to flip it over
-Click a second card and try to find its match
-If they match, they stay face up
-If they don't, they flip back over after a second, and it counts as a miss
-Match all 5 pairs to win
-Hit the redo button to shuffle and play again
+- Click a card to flip it over
+- Click a second card and try to find its match
+- If they match, they stay face up
+- If they don't, they flip back over after a second, and it counts as a miss
+- Match all 5 pairs to win
+- Hit the redo button to shuffle and play again
 
 The scoreboard tracks your wins and misses across games.
 
@@ -46,6 +46,9 @@ No cheating allowed: while two unmatched cards are showing, the waiting flag blo
 Winning: every match adds to the match count. When matches equals the number of different cards (5), you win, and your win count goes up.
 
 Built With
-Vanilla JavaScript
-HTML
-CSS Grid 
+- Vanilla JavaScript
+- HTML
+- CSS  
+
+<img width="2879" height="1570" alt="image" src="https://github.com/user-attachments/assets/86ce2649-a984-4339-b04f-b22ff456adde" />
+
