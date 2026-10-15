@@ -9,7 +9,6 @@ Randomized Layout: Shuffles the deck automatically on start and reset to ensure 
 
 Scoreboard Tracking: Keeps track of total wins and misses across multiple playthroughs.
 
-Anti-Cheat Controls: Prevents clicking additional cards while non-matching pairs are flipping back over.
 --
 
 ## How to Play
@@ -24,6 +23,7 @@ If they don't, they flip back over after a second, and it counts as a miss.
 Match all 5 pairs to win.
 
 Hit the redo button to shuffle and play again.
+
 --
 
 ## How It Works
@@ -34,6 +34,7 @@ Flipping cards: turnOver() handles every click. The first card you pick gets sav
 No cheating allowed: While two unmatched cards are showing, the waiting flag blocks any other clicks until they flip back. You also can't click a card that's already face up.
 
 Winning: Every match adds to the match count. When matches equals the number of different cards (5), you win, and your win count goes up.
+
 --
 
 ## Built With
@@ -42,5 +43,6 @@ JavaScript
 HTML
 
 CSS
+
 --
 <img width="2879" height="1570" alt="Dragon Ball Z Memory Match screenshot" src="https://github.com/user-attachments/assets/86ce2649-a984-4339-b04f-b22ff456adde" />
