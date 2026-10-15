@@ -9,7 +9,7 @@ Randomized Layout: Shuffles the deck automatically on start and reset to ensure 
 
 Scoreboard Tracking: Keeps track of total wins and misses across multiple playthroughs.
 
---
+
 
 ## How to Play
 Click a card to flip it over.
@@ -24,7 +24,7 @@ Match all 5 pairs to win.
 
 Hit the redo button to shuffle and play again.
 
---
+
 
 ## How It Works
 Shuffling the deck: dealCards() doubles the card list with the spread operator ([...cards, ...cards]) so every picture has a pair. Then for each card spot on the board, it picks a random card out of the deck with splice(). Since splice() removes the card it picks, nothing gets dealt twice.
@@ -35,7 +35,7 @@ No cheating allowed: While two unmatched cards are showing, the waiting flag blo
 
 Winning: Every match adds to the match count. When matches equals the number of different cards (5), you win, and your win count goes up.
 
---
+
 
 ## Built With
 JavaScript
@@ -44,5 +44,5 @@ HTML
 
 CSS
 
---
+
 <img width="2879" height="1570" alt="Dragon Ball Z Memory Match screenshot" src="https://github.com/user-attachments/assets/86ce2649-a984-4339-b04f-b22ff456adde" />
